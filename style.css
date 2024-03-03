@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    color: #C4C4CC;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color:  #121214;
+    padding: 72px 104px;
+    display: grid;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 370px); /* poderiamos usar 1fr tambem no lugar dos 370px, mas precisava deixar a caixa fixa do tamanho da imagem */
+    column-gap: 60px;
+    row-gap: 48px;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 7.3rem;
+    color: #02799D;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    font-weight: 500;
+    color: #E1E1E6;
+    margin: 8px auto 72px;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    background-color: #202024;
+    border: 2px solid #323238;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card h2 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    font-weight: 900;
+    padding: 24px 32px 0;
+}
+
+
+.card p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    padding: 24px 32px 32px;
+}
